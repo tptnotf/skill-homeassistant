@@ -1,1 +1,2 @@
-establece el brillo de {{entity}} a {{brightnessvalue}} por ciento
+establece el brillo de {entity} (a|al) {brightnessvalue} por ciento
+brillo de {entity} (a|al) {brightnessvalue} por ciento
