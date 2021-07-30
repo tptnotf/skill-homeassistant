@@ -325,7 +325,7 @@ class HomeAssistantSkill(FallbackSkill):
         self.ha.execute_service("light", "turn_on", ha_data)
         # Set values for mycroft reply
         ha_data['dev_name'] = ha_entity['dev_name']
-        ha_data['brightness'] = brightness_req / 255
+        ha_data['brightness'] = brightness_req
         self.speak_dialog('homeassistant.brightness.dimmed',
                           data=ha_data)
 
