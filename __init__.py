@@ -202,7 +202,7 @@ class HomeAssistantSkill(FallbackSkill):
     @intent_handler('set.light.brightness.intent')
     def handle_light_set_intent(self, message):
         self.log.debug("Change light intensity on entity: " + message.data.get("entity")
-                       + " to " + message.data.get("brightnessvalue") + " percent")
+                       + " to " + str(message.data.get("brightnessvalue")) + " percent")
         message.data["Entity"] = message.data.get("entity")
         message.data["Brightnessvalue"] = message.data.get("brightnessvalue")
         self._handle_light_set(message)
