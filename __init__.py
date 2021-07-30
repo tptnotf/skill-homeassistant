@@ -261,7 +261,8 @@ class HomeAssistantSkill(FallbackSkill):
                 'switch',
                 'scene',
                 'input_boolean',
-                'climate'
+                'climate',
+                'media_player'
             ]
         )
 

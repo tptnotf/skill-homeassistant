@@ -1,2 +1,2 @@
-establece el brillo de {entity} (a|al) {brightnessvalue} por ciento
-brillo de {entity} (a|al) {brightnessvalue} por ciento
+(establece|establecer) (|el) brillo de {entity} (a|al) {brightnessvalue} (%|por ciento)
+brillo de {entity} (a|al) {brightnessvalue} (%|por ciento)
